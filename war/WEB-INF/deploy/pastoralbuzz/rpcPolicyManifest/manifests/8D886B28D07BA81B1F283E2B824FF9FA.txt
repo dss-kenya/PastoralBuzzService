@@ -1,0 +1,2 @@
+serviceClass: com.adonnai.webapp.pastoralbuzz.client.GreetingService
+path: 7F4357680DEB322097ECB21EB470685B.gwt.rpc
