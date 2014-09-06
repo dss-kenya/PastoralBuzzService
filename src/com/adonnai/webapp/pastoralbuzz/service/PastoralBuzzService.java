@@ -16,7 +16,7 @@ public class PastoralBuzzService {
 	@Autowired
 	ServletContext context;
 	
-	@RequestMapping(value="/register", method = RequestMethod.GET)
+	@RequestMapping(value="/register", method = RequestMethod.POST)
 	public String useRegistration(@RequestParam(value="userDetails") UserModel user) {
 		return "Hello world";
 	}
